@@ -1,0 +1,38 @@
+:root {
+    --header-bg: linear-gradient(124deg, #1F1E1A 8.92%, #30291F 40.19%, #392F21 55.82%, #3D3122 63.64%, #413423 71.46%);
+    --main-color: white;
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* text styles */
+
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 32px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+h4 {
+    font-size: 18px;
+}
+
+p {
+    font-size: 16px;
+}
+
+@font-face {
+    font-family: 'costaline-regular';
+    src: url('../assets/fonts/Costaline-Regular.otf');
+}
+
+/* text styles */
