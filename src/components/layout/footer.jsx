@@ -1,13 +1,14 @@
 import React from 'react';
 import './footer.css';
+import FooterCol from '../common/footercolumn';
 
 const Footer = () => {
     return ( 
         <>
         <footer>
-            <div className="footer-col">
-                
-            </div>
+            <FooterCol />
+            <FooterCol />
+            <FooterCol />
         </footer>
         </>
      );
