@@ -17,8 +17,6 @@
     gap: 8px;
     max-width: 700px;
     max-height: fit-content;
-    position: relative;
-    right: 0;
     background: linear-gradient(180deg, #F5CA7B 0%, #8F7648 100%);
 }
 
@@ -34,4 +32,41 @@
     font-size: 20px;
     font-weight: 400;
     color: var(--main-darkcolor);
+}
+
+
+@media screen and (min-width: 390px) {
+    .hero {
+        flex-direction: column;
+        justify-content: center;
+        padding: 60px;
+    }
+    .hero-div {
+        padding: 30px 40px;
+        max-width: 100%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .hero {
+        flex-direction: column;
+        justify-content: center;
+        padding: 60px;
+    }
+    .hero-div {
+        padding: 30px 40px;
+        max-width: 100%;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .hero {
+        flex-direction: row;
+        padding: 60px 0px 60px 80px;
+        justify-content: space-between;
+    }
+    .hero-div {
+        padding: 60px 80px;
+        max-width: 700px;
+    }
 }
