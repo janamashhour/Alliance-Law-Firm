@@ -18,3 +18,22 @@ article a {
     font-size: 16px;
     font-weight: 500;
 }
+
+
+@media screen and (min-width: 390px) {
+    .copyrights {
+        padding: 8px 32px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .copyrights {
+        padding: 8px 32px;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .copyrights {
+        padding: 8px 80px;
+    }
+}
