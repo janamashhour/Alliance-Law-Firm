@@ -10,8 +10,14 @@
     --footer-bg: linear-gradient(124deg, #1F1E1A 8.92%, #30291F 40.19%, #392F21 55.82%, #3D3122 63.64%, #413423 71.46%);
     --footer-decor: url(assets/icons/footertitle-decor-dark.svg);
     --btn-arrow: url(assets/icons/arrow-dark.svg);
+    --burgermenu: url(assets/icons/burgermenu-dark.svg);
 }
 
 [data-theme="light"] {
-    --header-bg: linear-gradient(124deg, #E4DACD 8.92%, #DDD1C1 21.55%, #DACCBA 34.78%, #AF9D83 71.46%);;
+    --header-bg: linear-gradient(124deg, #E4DACD 8.92%, #DDD1C1 21.55%, #DACCBA 34.78%, #AF9D83 71.46%);
+    --main-color: #1F1E1A;
+    --main-lightcolor: #1F1E1A;
+    --main-darkcolor: #FAE2B8;
+    --header-logo: url('assets/icons/logo-light.svg');
+    --burgermenu: url(assets/icons/burgermenu-light.svg);
 }

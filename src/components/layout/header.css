@@ -42,15 +42,37 @@ header h3 {
     font-weight: 400;
 }
 
+.burgermenu {
+    background-image: var(--burgermenu);
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 40px;
+}
+
 
 @media screen and (min-width: 390px) {
     header {
         padding: 20px 32px;
     }
+    header nav {
+        display: none;
+    }
 }
 
 @media screen and (min-width: 768px) {
+    header {
+        padding: 20px 32px;
+    }
+    header nav {
+        display: none;
+    }
 }
 
 @media screen and (min-width:1200px) {
+    header {
+        padding: 22px 80px;
+    }
+    header nav {
+        display: flex;
+    }
 }

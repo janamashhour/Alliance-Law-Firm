@@ -68,6 +68,10 @@ article {
     object-fit: contain;
 }
 
+.display-none {
+    display: none;
+}
+
 /* text styles */
 
 h1 {
@@ -105,3 +109,25 @@ p {
 }
 
 /* text styles */
+
+
+@media screen and (min-width: 390px) {
+    article {
+        padding: 8px 32px;
+    }
+    .display-none {
+        display: flex;
+    }
+}
+
+@media screen and (min-width: 768px) {
+}
+
+@media screen and (min-width:1200px) {
+    article {
+        padding: 8px 80px;
+    }
+    .display-none {
+        display: none;
+    }
+}
