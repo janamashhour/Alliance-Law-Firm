@@ -4,6 +4,7 @@ footer {
     background-image: url(../../assets/imgs/footer-decor.png);
     background-repeat: no-repeat;
     background-position: right;
+    background-size: contain;
     display: flex;
     align-items: start;
     gap: 80px;
@@ -36,4 +37,37 @@ footer {
 
 .gap-12 {
     gap: 12px;
+}
+
+
+@media screen and (min-width: 390px) {
+    footer {
+        flex-direction: column;
+        background-position: bottom;
+        padding: 30px 32px;
+        gap: 32px;
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    footer {
+        flex-direction: row;
+        padding: 60px 80px;
+        gap: 60px;
+        flex-wrap: wrap;
+        background-size: auto;
+        background-position: bottom;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    footer {
+        flex-direction: row;
+        padding: 60px 80px;
+        background-position: right;
+        gap: 80px;
+        flex-wrap: nowrap;
+        background-size: contain;
+    }
 }
