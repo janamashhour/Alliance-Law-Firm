@@ -8,3 +8,32 @@ footer {
     align-items: start;
     gap: 80px;
 }
+
+.footer-col {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.footeritems {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: flex-start;
+    max-width: 270px;
+}
+
+.footeritems p {
+    color: white;
+    font-family: "IBM Plex Sans";
+    font-weight: 400;
+}
+
+.footeritems-row {
+    display: flex;
+    gap: 30px;
+}
+
+.gap-12 {
+    gap: 12px;
+}
