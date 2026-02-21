@@ -4,6 +4,7 @@ article {
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
+    background-color: white;
 }
 
 button {

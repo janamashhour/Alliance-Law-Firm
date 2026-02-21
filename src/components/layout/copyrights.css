@@ -1,0 +1,20 @@
+.copyrights {
+    padding: 8px 80px;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+
+article p {
+    color: #838383;
+    font-family: "IBM Plex Sans";
+    font-size: 16px;
+    font-weight: 400;
+}
+
+article a {
+    color: black;
+    font-family: "IBM Plex Sans";
+    font-size: 16px;
+    font-weight: 500;
+}
