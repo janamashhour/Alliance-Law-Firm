@@ -1,6 +1,8 @@
 :root {
     --header-bg: linear-gradient(124deg, #1F1E1A 8.92%, #30291F 40.19%, #392F21 55.82%, #3D3122 63.64%, #413423 71.46%);
     --main-color: white;
+    --header-logo: url('../assets/icons/logo-dark.svg');
+    --mode-icon: url('../assets/icons/sun-icon.svg');
 }
 
 * {
@@ -24,6 +26,10 @@ h3 {
 
 h4 {
     font-size: 18px;
+}
+
+h6 {
+    font-size: 14px;
 }
 
 p {

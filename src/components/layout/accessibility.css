@@ -1,0 +1,29 @@
+article {
+    padding: 8px 80px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+button {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+button h6 {
+    font-family: IBM Plex Sans;
+    color: black;
+    font-weight: 400;
+}
+
+.sun {
+    background-image: var(--mode-icon);
+    background-repeat: no-repeat;
+    width: 24px;
+    height: 24px;
+}

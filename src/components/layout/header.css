@@ -13,7 +13,8 @@ header {
 }
 
 .logo {
-    background-image: url('../../assets/icons/logo-dark.svg');
+    background-image: var(--header-logo);
+    background-repeat: no-repeat;
     width: 43px;
     height: 36px;
 }
