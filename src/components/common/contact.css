@@ -1,0 +1,69 @@
+.container {
+    background: var(--card-bg);
+    border: 1px solid var(--main-lightcolor);
+    padding: 40px;
+    border-radius: 6px;
+    width: 60%;
+}
+  
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+  
+.form-row {
+    display: flex;
+    gap: 24px;
+}
+  
+input, textarea {
+    padding: 12px 14px;
+    border: 1px solid var(--main-lightcolor);
+    background: transparent;
+    color: var(--main-color);
+    border-radius: 4px;
+    font-family: "IBM Plex Sans";
+    font-size: 16px;
+    width: 100%;
+}
+  
+textarea {
+    resize: none;
+}
+  
+button {
+    padding: 12px;
+    background-color: var(--main-lightcolor);
+    color: var(--main-darkcolor);
+    font-family: "IBM Plex Sans";
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 6px;
+    cursor: pointer;
+}
+  
+
+@media (min-width: 390px) {
+    .container {
+        width: 100%;
+    }
+    .form-row {
+      flex-direction: column;
+    }
+    button {
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .container {
+        width: 60%;
+    }
+    .form-row {
+        flex-direction: row;
+    }
+      button {
+        font-size: 20px;
+    }
+}

@@ -19,6 +19,7 @@ import expert1 from '../assets/imgs/expert1.png';
 import expert2 from '../assets/imgs/expert2.png';
 import expert3 from '../assets/imgs/expert3.png';
 import expert4 from '../assets/imgs/expert4.png';
+import Contact from '../components/common/contact';
 
 
 
@@ -82,8 +83,9 @@ const Home = () => {
                 <div className="footer-diamond"></div>
                 <div className="decor-line"></div>
             </div>
-            <section className='secCont'>
+            <section className='secCont contact-decor'>
                 <SecTitle sectitle="Contact us" secdesc="At Alliance Law Group, we are here to help you with all your legal needs." />
+                <Contact /> 
             </section>
             <div className="column">
                 <Footer />

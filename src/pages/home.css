@@ -85,6 +85,13 @@ article {
     display: flex;
 }
 
+.contact-decor {
+    background-image: url(../assets/imgs/sec4-decor.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+}
+
 /* text styles */
 
 h1 {
@@ -136,6 +143,9 @@ p {
     }
     .row {
         flex-wrap: wrap;
+    }
+    .secCont {
+        padding: 0px 32px 0px 32px;
     }
     .cards-row {
         gap: 60px;
