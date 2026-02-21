@@ -1,0 +1,31 @@
+.card2 {
+    border-radius: 6px;
+    border: 2px solid var(--main-lightcolor);
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    background: var(--card-bg);
+    gap: 12px;
+    min-height: 178px;
+}
+
+.card2 h3 {
+    color: var(--main-color);
+    font-family: "IBM Plex Sans";
+    font-weight: 400;
+}
+
+.year {
+    padding: 10px 10px 6px 10px;
+    background: linear-gradient(180deg, #F5CA7B 0%, #8F7648 100%);
+    border-radius: 20px;
+    width: fit-content;
+}
+
+.year h4 {
+    font-family: "costaline-regular";
+    color: var(--main-darkcolor);
+    font-weight: 400;
+}

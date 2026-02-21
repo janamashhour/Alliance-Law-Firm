@@ -46,6 +46,7 @@ article {
     display: flex;
     gap: 32px;
     width: 100%;
+    height: 100%;
 }
 
 .footer-diamond {
@@ -53,6 +54,17 @@ article {
     background-repeat: no-repeat;
     width: 4px;
     height: 4px;
+}
+
+.cards-col {
+    display: flex;
+    flex-direction: column;
+    gap: 46px;
+    height: 100%;
+}
+
+.sec2-decor {
+    object-fit: contain;
 }
 
 /* text styles */

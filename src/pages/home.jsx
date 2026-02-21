@@ -12,6 +12,8 @@ import card1img3 from '../assets/icons/sec1-icon3-dark.svg';
 import Btn from '../components/common/button';
 import Theme from '../components/common/themebtn';
 import '../root.css';
+import sec2decor from '../assets/imgs/sec2-decor.png';
+import Card2 from '../components/common/card2';
 
 
 const Home = () => {
@@ -39,6 +41,19 @@ const Home = () => {
             </div>
             <section className='secCont'>
                 <SecTitle sectitle="OUR STORY" secdesc="Since its inception in 2015, Alliance Law has grown into a leading law firm in Egypt, delivering full-service legal solutions across key industries." />
+                <div className="cards-row">
+                    <div className="cards-col">
+                        <Card2 year="2025" story="Celebrating our 10th anniversary" />
+                        <Card2 year="2022" story="Third expansion in South Teseen, New Cairo, located in the heart of the city's commercial center" />
+                        <Card2 year="2019" story="Achieved an annual growth rate of approximately 61% compared to the previous year" />
+                    </div>
+                    <img className='sec2-decor' src={sec2decor} alt="decor" />
+                    <div className="cards-col">
+                        <Card2 year="2018" story="Second expansion" />
+                        <Card2 year="2017" story="First expansion in Smart Village, Cairo" />
+                        <Card2 year="2016" story="Recognized by Who's Who Legal as a leading Technology, Media, and Telecom law firm" />
+                    </div>
+                </div>
                 <Btn />
             </section>
             <div className="footertitle-decor">
