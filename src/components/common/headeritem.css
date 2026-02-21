@@ -4,4 +4,8 @@ header li {
 
 header a {
     color: var(--main-color);
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'IBM Plex Sans';
+    text-decoration: none;
 }

@@ -24,6 +24,17 @@ header {
     background-color: var(--main-color);
 }
 
+header nav {
+    display: flex;
+    align-items: center;
+}
+
+header ul {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
 header h3 {
     color: var(--main-color);
     font-family: 'costaline-regular';

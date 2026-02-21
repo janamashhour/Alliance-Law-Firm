@@ -13,7 +13,11 @@ const Header = () => {
             </div>
             <nav>
                 <ul>
-                    <HeaderItem />
+                    <HeaderItem location="#home" headeritem="Home" />
+                    <HeaderItem location="#home" headeritem="Achievements" />
+                    <HeaderItem location="#home" headeritem="Our Story" />
+                    <HeaderItem location="#home" headeritem="Experts" />
+                    <HeaderItem location="#home" headeritem="Contact" />
                 </ul>
             </nav>
         </header>
