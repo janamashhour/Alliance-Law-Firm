@@ -5,7 +5,7 @@ const Accessibility = () => {
     return ( 
         <>
         <article>
-            <button>
+            <button className='mode-btn'>
                 <h6>Change Mode</h6>
                 <div className="sun"></div>
             </button>

@@ -1,0 +1,24 @@
+button {
+    border-radius: 20px;
+    border: 1px solid var(--main-lightcolor);
+    background: var(--card-bg);
+    padding: 12px 14px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+button h3 {
+    color: var(--main-color);
+    font-family: "IBM Plex Sans";
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.btn-arrow {
+    background-image: var(--btn-arrow);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 18px;
+    height: 16px;
+}

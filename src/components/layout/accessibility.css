@@ -7,7 +7,7 @@ article {
     background-color: white;
 }
 
-button {
+.mode-btn {
     display: flex;
     align-items: center;
     gap: 10px;
@@ -15,8 +15,7 @@ button {
     background: none;
     cursor: pointer;
 }
-
-button h6 {
+.mode-btn h6 {
     font-family: IBM Plex Sans;
     color: black;
     font-weight: 400;

@@ -10,6 +10,7 @@ import Card1 from '../components/common/card1';
 import card1img1 from '../assets/icons/sec1-icon1-dark.svg';
 import card1img2 from '../assets/icons/sec1-icon2-dark.svg';
 import card1img3 from '../assets/icons/sec1-icon3-dark.svg';
+import Btn from '../components/common/button';
 
 
 const Home = () => {
@@ -26,6 +27,7 @@ const Home = () => {
                     <Card1 card1icon={card1img2} cardimgdesc="IFLR1000 logo" card1title="IFLR1000" card1text='"They are responsive, always with a timely and business oriented advice. Their fees are reasonable as well."' />
                     <Card1 card1icon={card1img3} cardimgdesc="The Legal 500 logo" card1title="The Legal 500" card1text='"The service is invaluable as they help make us succeed in the market by solving our issues in a very knowledgeable manner."' />
                 </div>
+                <Btn />
             </section>
             <div className="column">
                 <Footer />
