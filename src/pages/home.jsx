@@ -84,7 +84,6 @@ const Home = () => {
             </div>
             <section className='secCont'>
                 <SecTitle sectitle="Contact us" secdesc="At Alliance Law Group, we are here to help you with all your legal needs." />
-                <Btn />
             </section>
             <div className="column">
                 <Footer />
