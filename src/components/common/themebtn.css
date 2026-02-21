@@ -1,0 +1,13 @@
+.theme-row {
+    display: flex;
+    gap: 6px;
+}
+
+.themebtn {
+    background: none;
+    border: 1px solid var(--main-lightcolor);
+    border-radius: 100px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}

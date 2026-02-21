@@ -9,6 +9,8 @@
 .sectitle h1 {
     color: var(--main-lightcolor);
     font-family: "costaline-medium";
+    letter-spacing: 12.24px;
+    text-transform: uppercase;
     font-weight: 400;
 }
 
