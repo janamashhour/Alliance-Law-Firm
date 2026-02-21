@@ -19,7 +19,7 @@
 
 .year {
     padding: 10px 10px 6px 10px;
-    background: linear-gradient(180deg, #F5CA7B 0%, #8F7648 100%);
+    background: var(--flying-div);
     border-radius: 20px;
     width: fit-content;
 }

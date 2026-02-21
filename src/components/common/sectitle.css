@@ -18,8 +18,7 @@
 
 .sectitle p {
     text-align: center;
-    color: white;
-    color: #FFF;
+    color: var(--main-color);
     font-family: "IBM Plex Sans";
     font-weight: 400;
 }

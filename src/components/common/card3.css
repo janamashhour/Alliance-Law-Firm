@@ -13,7 +13,7 @@
     top: 340px;
     padding: 12px 14px;
     gap: 10px;
-    background: linear-gradient(180deg, #F5CA7B 0%, #8F7648 100%);
+    background: var(--flying-div);
     border-radius: 20px;
     width: fit-content;
     display: flex;
