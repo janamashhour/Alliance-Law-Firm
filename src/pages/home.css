@@ -3,6 +3,7 @@
     --main-color: white;
     --main-lightcolor: #FAE2B8;
     --main-darkcolor: #1F1E1A;
+    --card-bg: rgba(0, 0, 0, 0.10);
     --header-logo: url('../assets/icons/logo-dark.svg');
     --mode-icon: url('../assets/icons/sun-icon.svg');
     --body-bg: linear-gradient(180deg, #30291F 0%, #332C21 13.94%, #362E23 27.4%, #3D3427 37.98%, #564A38 50%, #4A3F2F 62.02%, #362E23 76.19%, #332C21 88.46%, #30291F 100%);
@@ -27,6 +28,7 @@ main {
     display: flex;
     flex-direction: column;
     gap: 60px;
+    width: 100%;
 }
 
 .column {
@@ -36,9 +38,18 @@ main {
 
 .secCont {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 60px;
+    width: 100%;
+    padding: 0px 100px 0px 100px;
+}
+
+.cards-row {
+    display: flex;
+    gap: 32px;
+    width: 100%;
 }
 
 /* text styles */

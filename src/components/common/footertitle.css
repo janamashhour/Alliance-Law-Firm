@@ -14,7 +14,7 @@
 .decor-line {
     height: 1px;
     flex: 1 0 0;
-    background-color: white;
+    background-color: var(--main-lightcolor);
 }
 
 .footer-diamond {

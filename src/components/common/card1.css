@@ -1,0 +1,47 @@
+.card1 {
+    border: 2px solid var(--main-lightcolor);
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 24px;
+    align-items: center;
+    flex: 1 0 0;
+    border-radius: 6px;
+    background: var(--card-bg);
+    width: 30%;
+}
+
+.card1 p {
+    color: var(--main-color);
+    font-family: 'costaline-regular';
+    font-weight: 400; 
+}
+
+.card1 h3 {
+    color: var(--main-color);
+    font-family: "IBM Plex Sans";
+    font-weight: 400;
+}
+
+.card1 img {
+    width: fit-content;
+}
+
+.footertitle-decor {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.decor-line {
+    height: 1px;
+    flex: 1 0 0;
+    background-color: var(--main-lightcolor);
+}
+
+.footer-diamond {
+    background-image: var(--footer-decor);
+    width: 4px;
+    height: 4px;
+}
