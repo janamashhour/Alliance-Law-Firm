@@ -1,0 +1,21 @@
+.sectitle {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: center;
+    max-width: 530px;
+}
+
+.sectitle h1 {
+    color: var(--main-lightcolor);
+    font-family: "costaline-medium";
+    font-weight: 400;
+}
+
+.sectitle p {
+    text-align: center;
+    color: white;
+    color: #FFF;
+    font-family: "IBM Plex Sans";
+    font-weight: 400;
+}

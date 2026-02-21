@@ -1,6 +1,7 @@
 :root {
     --header-bg: linear-gradient(124deg, #1F1E1A 8.92%, #30291F 40.19%, #392F21 55.82%, #3D3122 63.64%, #413423 71.46%);
     --main-color: white;
+    --main-lightcolor: #FAE2B8;
     --main-darkcolor: #1F1E1A;
     --header-logo: url('../assets/icons/logo-dark.svg');
     --mode-icon: url('../assets/icons/sun-icon.svg');
@@ -31,6 +32,13 @@ main {
 .column {
     display: flex;
     flex-direction: column;
+}
+
+.secCont {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
 }
 
 /* text styles */
