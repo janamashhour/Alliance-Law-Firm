@@ -1,0 +1,34 @@
+.card3 {
+    position: relative;
+    background: var(--card-bg);
+    border-radius: 6px;
+    border: 1px solid var(--main-lightcolor);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.expert {
+    position: absolute;
+    top: 340px;
+    padding: 12px 14px;
+    gap: 10px;
+    background: linear-gradient(180deg, #F5CA7B 0%, #8F7648 100%);
+    border-radius: 20px;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.expert h4 {
+    color: var(--main-darkcolor);
+    font-family: "costaline-regular";
+    font-weight: 500;
+}
+
+.expert h3 {
+    color: rgba(31, 30, 26, 0.50);
+    font-family: "IBM Plex Sans";
+    font-weight: 500;
+}

@@ -14,6 +14,12 @@ import Theme from '../components/common/themebtn';
 import '../root.css';
 import sec2decor from '../assets/imgs/sec2-decor.png';
 import Card2 from '../components/common/card2';
+import Card3 from '../components/common/card3';
+import expert1 from '../assets/imgs/expert1.png';
+import expert2 from '../assets/imgs/expert2.png';
+import expert3 from '../assets/imgs/expert3.png';
+import expert4 from '../assets/imgs/expert4.png';
+
 
 
 const Home = () => {
@@ -63,6 +69,12 @@ const Home = () => {
             </div>
             <section className='secCont'>
                 <SecTitle sectitle="OUR Experts" secdesc="Their combined expertise spans cross-border transactions, regulatory advisory and high-value corporate matters, trusted by multinational clients across key industries." />
+                <div className="cards-row">
+                    <Card3 expert={expert1} expertdesc="pic of Dr. Ashraf" name="Dr. Ashraf Abou ElKheir" jobtitle="Founder" />
+                    <Card3 expert={expert2} expertdesc="pic of Dr. Mohamed" name="Dr. Mohamed Al Rafie" jobtitle="Co-Founder"  />
+                    <Card3 expert={expert3} expertdesc="pic of Hagar" name="Hagar Mohamed" jobtitle="Counsel" />
+                    <Card3 expert={expert4} expertdesc="pic of Ahmed" name="Ahmed Hammam" jobtitle="Senior Associate" />
+                </div>
                 <Btn />
             </section>
             <div className="footertitle-decor">

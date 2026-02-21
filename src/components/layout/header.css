@@ -41,3 +41,16 @@ header h3 {
     font-family: 'costaline-regular';
     font-weight: 400;
 }
+
+
+@media screen and (min-width: 390px) {
+    header {
+        padding: 20px 32px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+}
+
+@media screen and (min-width:1200px) {
+}
