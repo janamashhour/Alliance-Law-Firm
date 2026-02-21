@@ -1,0 +1,7 @@
+header li {
+    list-style-type: none;
+}
+
+header a {
+    color: var(--main-color);
+}

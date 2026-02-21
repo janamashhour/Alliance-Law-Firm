@@ -1,5 +1,6 @@
 import React from 'react';
 import './header.css';
+import HeaderItem from '../common/headeritem';
 
 const Header = () => {
     return ( 
@@ -12,6 +13,7 @@ const Header = () => {
             </div>
             <nav>
                 <ul>
+                    <HeaderItem />
                 </ul>
             </nav>
         </header>

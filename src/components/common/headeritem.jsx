@@ -1,8 +1,12 @@
 import React from 'react';
+import './headeritem.css';
 
-const HeaderItem = () => {
+const HeaderItem = (props) => {
     return ( 
         <>
+        <li>
+            <a href="{props.location}">{props.headeritem}</a>
+        </li>
         </>
      );
 }
