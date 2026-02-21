@@ -3,6 +3,7 @@
     flex-direction: column;
     gap: 12px;
     align-items: center;
+    justify-content: center;
     max-width: 530px;
 }
 
@@ -12,6 +13,7 @@
     letter-spacing: 12.24px;
     text-transform: uppercase;
     font-weight: 400;
+    text-align: center;
 }
 
 .sectitle p {

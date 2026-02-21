@@ -53,7 +53,7 @@ const Home = () => {
                         <Card2 year="2022" story="Third expansion in South Teseen, New Cairo, located in the heart of the city's commercial center" />
                         <Card2 year="2019" story="Achieved an annual growth rate of approximately 61% compared to the previous year" />
                     </div>
-                    <img className='sec2-decor' src={sec2decor} alt="decor" />
+                    <img className='sec2-decor display-flex' src={sec2decor} alt="decor" />
                     <div className="cards-col">
                         <Card2 year="2018" story="Second expansion" />
                         <Card2 year="2017" story="First expansion in Smart Village, Cairo" />

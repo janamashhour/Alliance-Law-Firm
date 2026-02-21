@@ -81,6 +81,10 @@ article {
     display: none;
 }
 
+.display-flex {
+    display: flex;
+}
+
 /* text styles */
 
 h1 {
@@ -126,6 +130,12 @@ p {
     }
     .display-none {
         display: flex;
+    }
+    .display-flex {
+        display: none;
+    }
+    .row {
+        flex-wrap: wrap;
     }
     h1 {
         font-size: 28px;
@@ -180,6 +190,12 @@ p {
     }
     .display-none {
         display: none;
+    }
+    .display-flex {
+        display: flex;
+    }
+    .row {
+        flex-wrap: nowrap;
     }
     h1 {
         font-size: 36px;
