@@ -137,6 +137,11 @@ p {
     .row {
         flex-wrap: wrap;
     }
+    .cards-row {
+        gap: 60px;
+        align-items: center;
+        justify-content: center;
+    }
     h1 {
         font-size: 28px;
     }
@@ -196,6 +201,11 @@ p {
     }
     .row {
         flex-wrap: nowrap;
+    }
+    .cards-row {
+        gap: 32px;
+        align-items: center;
+        justify-content: center;
     }
     h1 {
         font-size: 36px;
