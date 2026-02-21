@@ -1,6 +1,7 @@
 :root {
     --header-bg: linear-gradient(124deg, #1F1E1A 8.92%, #30291F 40.19%, #392F21 55.82%, #3D3122 63.64%, #413423 71.46%);
     --main-color: white;
+    --main-darkcolor: #1F1E1A;
     --header-logo: url('../assets/icons/logo-dark.svg');
     --mode-icon: url('../assets/icons/sun-icon.svg');
     --body-bg: linear-gradient(180deg, #30291F 0%, #332C21 13.94%, #362E23 27.4%, #3D3427 37.98%, #564A38 50%, #4A3F2F 62.02%, #362E23 76.19%, #332C21 88.46%, #30291F 100%);
@@ -19,6 +20,12 @@ body {
 
 a {
     text-decoration: none;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
 }
 
 .column {

@@ -4,6 +4,7 @@ import './home.css';
 import Accessibility from '../components/layout/accessibility';
 import Copyrights from '../components/layout/copyrights';
 import Footer from '../components/layout/footer';
+import Hero from '../components/layout/hero';
 
 const Home = () => {
     return ( 
@@ -11,8 +12,11 @@ const Home = () => {
         <Accessibility />
         <Header />
         <main>
-            <Footer />
-            <Copyrights />  
+            <Hero />
+            <div className="column">
+                <Footer />
+                <Copyrights />  
+            </div>
         </main>
         </>
      );
