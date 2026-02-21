@@ -9,6 +9,7 @@
     border-radius: 6px;
     background: var(--card-bg);
     width: 30%;
+    min-width: 300px;
 }
 
 .card1 p {
@@ -44,4 +45,22 @@
     background-image: var(--footer-decor);
     width: 4px;
     height: 4px;
+}
+
+@media screen and (min-width: 390px) {
+    .card1 {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .card1 {
+        width: 47%;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .card1 {
+        width: 30%;
+    }
 }

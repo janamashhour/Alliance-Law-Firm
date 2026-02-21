@@ -42,12 +42,21 @@ article {
     padding: 0px 100px 0px 100px;
 }
 
+.row {
+    display: flex;
+    gap: 32px;
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+}
+
 .cards-row {
     display: flex;
     gap: 32px;
     width: 100%;
     height: 100%;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .footer-diamond {

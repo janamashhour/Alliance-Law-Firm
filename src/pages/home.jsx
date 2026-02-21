@@ -47,7 +47,7 @@ const Home = () => {
             </div>
             <section className='secCont'>
                 <SecTitle sectitle="OUR STORY" secdesc="Since its inception in 2015, Alliance Law has grown into a leading law firm in Egypt, delivering full-service legal solutions across key industries." />
-                <div className="cards-row">
+                <div className="row">
                     <div className="cards-col">
                         <Card2 year="2025" story="Celebrating our 10th anniversary" />
                         <Card2 year="2022" story="Third expansion in South Teseen, New Cairo, located in the heart of the city's commercial center" />
